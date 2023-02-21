@@ -188,7 +188,7 @@ class AddTodo extends Component {
                     />
                   </svg>
 
-                  {todo.title}
+                  <span className="todo-text">{todo.title}</span>
                 </div>
               ))}
           {this.state.category === "incomplete" &&
@@ -231,7 +231,7 @@ class AddTodo extends Component {
                     />
                   </svg>
 
-                  {todo.title}
+                  <span className="todo-text">{todo.title}</span>
                 </div>
               ))}
         </form>
