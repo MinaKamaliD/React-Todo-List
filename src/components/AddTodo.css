@@ -1,3 +1,6 @@
 .todo-icon {
-  width: 20px;
+  width: 24px;
+}
+.completed {
+  background-color: yellow;
 }
