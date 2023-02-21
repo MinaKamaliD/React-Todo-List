@@ -1,0 +1,17 @@
+.email,
+.name {
+  text-align: center;
+  font-size: 12px;
+  width: 16%;
+  color: #888;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.email:hover,
+.name:hover {
+  color: #c92a2a;
+}
+.footer {
+  margin-top: 10px;
+  margin-right: 25px;
+}
